@@ -27,8 +27,8 @@ app.get('/', (req, res) =>
 );
 
 /**
- * @route POST api/userd
- * @desc Resgister user
+ * @route POST api/user
+ * @desc Register user
  */
 app.post(
     '/api/users',
